@@ -34,7 +34,7 @@ exclude = [
 python = "^3.6"
 appdirs = "^1.4.1"
 cython = "^0.29"
-falcon = "^2.0"
+falcon = "^3.0"
 jack-client = "^0.5"
 mido = "^1.2"
 pygobject = "^3.30"
@@ -43,7 +43,7 @@ pyqt5 = "^5.6"
 python-rtmidi = "^1.1"
 requests = "^2.20"
 sortedcontainers = "^2.0"
-pyalsa = {git = "https://github.com/alsa-project/alsa-python.git", tag = "v1.1.6"}
+pyalsa = {git = "https://github.com/alsa-project/alsa-python.git", tag = "v1.2.6"}
 humanize = "^3.1.0"
 
 [tool.poetry.dev-dependencies]

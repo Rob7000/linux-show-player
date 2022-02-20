@@ -68,7 +68,7 @@ class AudioPanSettings(SettingsPage):
         return {}
 
     def loadSettings(self, settings):
-        self.panSlider.setValue(settings.get("pan", 0.5) * 10)
+        self.panSlider.setValue(int(settings.get("pan", 0.5) * 10))
 
     def pan_changed(self, value):
         if value < 0:
